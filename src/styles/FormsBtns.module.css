@@ -1,0 +1,13 @@
+
+
+.goBackBtn{
+    color: hsl(231, 11%, 63%);
+    margin-top: 3rem;
+    
+}
+
+.goBackBtn:hover{
+    color:  hsl(213, 96%, 18%);
+}
+
+

@@ -1,0 +1,150 @@
+
+*{
+    margin: 0;
+    padding: o;
+}
+
+.main-container{
+    height: 100vmin;
+    width: 100%;
+    background-color:   hsl(218, 100%, 97%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.multi-step-form-container{
+    height: 80%;
+    width: 70%;
+    background-color:  hsl(0, 100%, 100%);
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+@media (min-width:320px) and (max-width:480px){
+    .main-container{
+        height: 100vh;
+        width: 100%;
+        /* background-color: white ; */
+    }
+
+    .multi-step-form-container{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .allFormContainer{
+        height: 88%;
+        width: 100%;
+        background-color:  hsl(218, 100%, 97%);
+        padding: 2rem .5rem;
+        border-radius: 0px;
+    }
+
+
+    .formContainer{
+
+        min-height : 75%;
+        width: 100%;
+        background-color: white;
+        padding: .5rem .7rem;
+        border-radius: 10px;
+        box-shadow: 1px 1px 2px 0px  hsl(225, 7%, 78%);
+        position: relative;
+        top: -22%;
+
+
+
+    }
+
+    .formbtsContainer{
+        width: 100%;
+        background-color: white;
+        position: relative;
+        bottom:1.5%;
+
+    }
+
+
+}
+
+@media (min-width: 481px) and (max-width: 768px){
+    .main-container{
+        height: 100vh;
+        width: 100%;
+
+    }
+
+    .multi-step-form-container{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .allFormContainer{
+        height: 88%;
+        width: 100%;
+        background-color:  hsl(218, 100%, 97%);
+        padding: 2rem 2rem;
+        border-radius: 0px;
+    }
+
+
+    .formContainer{
+
+        min-height : 75%;
+        width: 100%;
+        background-color: white;
+        padding: .5rem 2rem;
+        border-radius: 10px;
+        box-shadow: 1px 1px 2px 0px  hsl(225, 7%, 78%);
+        position: relative;
+        top: -22%;
+
+
+
+    }
+
+    .formbtsContainer{
+        width: 100%;
+        background-color: white;
+        position: relative;
+        bottom:1.5%;
+
+    }
+
+
+}
+
+@media (min-width: 769px) and (max-width: 992px){
+    .main-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .multi-step-form-container{
+        height: 80%;
+        width: 90%;
+    }
+}
+
+
+@media (min-width: 993px) and (max-width: 1300px){
+    .main-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .multi-step-form-container{
+        height: 80%;
+        width: 80%;
+    }
+}
+
+

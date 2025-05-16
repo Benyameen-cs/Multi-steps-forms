@@ -1,0 +1,142 @@
+
+
+.pickAddContainer{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.pickAdd{
+    height: 4rem;
+    width: 100%;
+    border: 1px solid hsl(228, 100%, 84%);
+    border-radius: 10px;
+}
+
+.pickAddLabel{
+    display: flex;
+    align-items: center;
+}
+
+.pickAddCheckbox{
+    margin-left: -10px;
+    margin-bottom: 10px;
+}
+.pickAddType{
+    padding-top: 5px;
+    padding-left: 20px;
+    width: 100%;
+}
+
+.pickAddPrice{
+
+    color: hsl(243, 100%, 62%);
+    margin-left: 40%;
+    margin-bottom: 10px;
+}
+
+.goBackBtn{
+    color: hsl(231, 11%, 63%);
+    margin-top: 3rem;
+    
+}
+
+.goBackBtn:hover{
+    color:  hsl(213, 96%, 18%);
+}
+
+
+.nextStepBtn{
+    height: 45px;
+    width:120px;
+    background-color:  hsl(213, 96%, 18%);
+    color: white;
+    float: right;
+    margin-top: 3rem;
+    border-radius: 7px;
+}
+
+.nextStepBtn:hover{
+    background-color: hsl(213, 96%, 25%);;
+}
+
+@media (min-width: 375px) and (max-width:480px) {
+
+    .pickAddLabel{
+        display: flex;
+    }
+    .pickAddCheckbox{
+        margin-bottom: 0px;
+    }
+
+    .pickAddType{
+        height: 4rem;
+        width: 100%;
+    }
+
+    .pickAddPrice{
+        margin: 0px;
+    }
+}
+
+@media (min-width: 481px) and (max-width:768px) {
+
+    .pickAddLabel{
+        display: flex;
+    }
+    .pickAddCheckbox{
+        margin-bottom: 0px;
+    }
+
+    .pickAddType{
+        height: 4rem;
+        width: 100%;
+    }
+
+    .pickAddPrice{
+        margin: 0px;
+    }
+
+}
+
+@media (min-width: 769px) and (max-width:992px) {
+
+    .pickAddLabel{
+        display: flex;
+    }
+    .pickAddCheckbox{
+        margin-bottom: 0px;
+    }
+
+    .pickAddType{
+        height: 4rem;
+        width: 100%;
+    }
+
+    .pickAddPrice{
+        margin: 0px;
+    }
+    
+}
+
+@media (min-width: 993px) and (max-width:1300px) {
+
+    .pickAddLabel{
+        display: flex;
+    }
+    .pickAddCheckbox{
+        margin-bottom: 0px;
+    }
+
+    .pickAddType{
+        height: 4rem;
+        width: 100%;
+    }
+
+    .pickAddPrice{
+        margin: 0px;
+    }
+    
+}

@@ -1,0 +1,58 @@
+
+
+.formsContainer{
+    height: 95%;
+    width: 65%;
+}
+
+.formSubContainer{
+    height: 100%;
+    width: 100%;
+    padding: 3.5rem 5rem;
+
+}
+
+@media (min-width: 375px) and (max-width:768px) {
+
+    .formsContainer{
+        height: 100%;
+        width: 100%;
+    }
+
+    .formSubContainer{
+        height: 100%;
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media (min-width: 769px) and (max-width:992px) {
+
+    .formsContainer{
+        height: 95%;
+        width: 65%;
+    }
+
+    .formSubContainer{
+        height: 100%;
+        width: 100%;
+        padding: 2rem 1rem;
+        
+    }
+}
+
+
+@media (min-width: 993px) and (max-width:1300px) {
+
+    .formsContainer{
+        height: 95%;
+        width: 65%;
+    }
+
+    .formSubContainer{
+        height: 100%;
+        width: 100%;
+        padding: 2rem 1rem;
+        
+    }
+}

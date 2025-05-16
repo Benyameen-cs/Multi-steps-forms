@@ -1,0 +1,84 @@
+
+
+.thankyouContainer{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.thankyouMessege{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:  0px 4rem;
+}
+
+.thankyouHeading{
+    margin-top: 10px;
+}
+
+.thankyouPara{
+    color: hsl(231, 11%, 63%);
+}
+.thankyouIcon{
+    height: 60px;
+    width: 60px;
+}
+
+.thankyouIcon img{
+    height: 100%;
+    width: 100%;
+}
+
+
+@media (min-width: 375px) and (max-width:480px) {
+    .finishFormContainer{
+        height: 100%;
+        width: 100%;
+        background-color:  hsl(218, 100%, 97%);
+        padding: 2rem .5rem;
+        border-radius: 0px;
+    }
+
+    .thankyouContainer{
+        height : 100%;
+        width: 100%;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 1px 1px 2px 0px  hsl(225, 7%, 78%);
+        position: relative;
+        top: -92%
+    }
+
+    .thankyouMessege{
+        padding: 0 20px;
+        text-align: center;
+    }
+}
+
+@media (min-width: 481px) and (max-width:768px) {
+    .finishFormContainer{
+        height: 100%;
+        width: 100%;
+        background-color:  hsl(218, 100%, 97%);
+        padding: 2rem 2rem;
+        border-radius: 0px;
+    }
+
+    .thankyouContainer{
+        height : 100%;
+        width: 100%;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 1px 1px 2px 0px  hsl(225, 7%, 78%);
+        position: relative;
+        top: -92%
+    }
+
+    .thankyouMessege{
+        padding: 0 20px;
+        text-align: center;
+    }
+}

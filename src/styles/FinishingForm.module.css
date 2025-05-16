@@ -1,0 +1,49 @@
+
+
+.selectedDataContainer{
+    width: 100%;
+    background-color:  hsl(218, 100%, 97%);
+    border-radius: 5px;
+    padding: 10px  20px;
+    margin-top: 50px;
+}
+
+
+.finishingPrice{
+    float: right;
+    color: hsl(213, 96%, 18%);
+}
+
+.FinishinPlanType{
+    color:hsl(213, 96%, 18%) ;
+}
+
+
+.changeBtn{
+    color: hsl(231, 11%, 63%);
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+.changeBtn:hover{
+    color:  hsl(213, 96%, 18%);
+}
+
+.selectedPlans{
+    color:  hsl(231, 11%, 63%);
+}
+
+.totalContainer{
+    padding: 0px 20px;
+}
+
+.totalPrice{
+    font-weight: bold;
+    float: right; 
+    color: hsl(243, 100%, 62%);
+}
+
+.confirmBtn{
+    margin-top: 3rem;
+    float: right;
+}

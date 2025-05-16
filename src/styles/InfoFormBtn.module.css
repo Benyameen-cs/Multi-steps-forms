@@ -1,0 +1,20 @@
+
+.nextStepBtn{
+    height: 45px;
+    width:120px;
+    background-color:  hsl(213, 96%, 18%);
+    color: white;
+    float: right;
+    margin-top: 3rem;
+    border-radius: 7px;
+}
+
+.nextStepBtn:hover{
+    background-color: hsl(213, 96%, 25%);;
+}
+
+.warningMsg{
+    float: right;
+    color:  hsl(354, 84%, 57%);
+    font-weight: bold;
+}
