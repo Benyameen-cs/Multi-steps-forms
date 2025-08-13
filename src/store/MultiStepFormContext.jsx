@@ -114,7 +114,7 @@ const multiStepFormFunction = (currValue, action) => {
 
 const MultiStepFormContextProvider = (props) => {
 
-    const [stateValue, dispatch] = useReducer(multiStepFormFunction, allData)
+  const [stateValue, dispatch] = useReducer(multiStepFormFunction, allData)
     
 
 

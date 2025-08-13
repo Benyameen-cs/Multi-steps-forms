@@ -33,7 +33,7 @@
 }
 
 
-@media (min-width: 375px) and (max-width:480px) {
+@media (min-width: 0px) and (max-width:480px) {
     .finishFormContainer{
         height: 100%;
         width: 100%;

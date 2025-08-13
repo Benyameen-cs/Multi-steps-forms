@@ -62,7 +62,7 @@
     background-color: hsl(213, 96%, 25%);;
 }
 
-@media (min-width: 375px) and (max-width:480px) {
+@media (min-width: 0px) and (max-width:480px) {
 
     .pickAddLabel{
         display: flex;
